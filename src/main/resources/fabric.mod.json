@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "flipnotegreetings",
+	"version": "${version}",
+	"name": "Flipnote Froggy Greetings",
+	"description": "I... wanted a mod to play the flipnote startup sound when joining a world so.......... THERE IT IS !!!",
+	"authors": [
+		"Patema"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/flipnotegreetings/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"net.patema.flipnotegreetings.FlipnoteGreetings"
+		]
+	},
+	"mixins": [
+		"flipnotegreetings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
