@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/PatemaAelita/FlipnoteGreetings"
 	},
 	"license": "CC BY-NC-SA 4.0",
 	"icon": "assets/flipnotegreetings/icon.png",
@@ -19,9 +19,6 @@
 			"net.patema.flipnotegreetings.FlipnoteGreetings"
 		]
 	},
-	"mixins": [
-		"flipnotegreetings.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
