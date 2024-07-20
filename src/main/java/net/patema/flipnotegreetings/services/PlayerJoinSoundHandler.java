@@ -21,7 +21,6 @@ public class PlayerJoinSoundHandler {
                 gameLoaded = true;
                 client.player.playSound(ModSounds.STARTUP_SOUND, SoundCategory.PLAYERS, 1.0F, 1.0F);
                 client.player.sendMessage(Text.literal("The Flipnote frog greets you !!!"), false);
-                System.out.println("Le jeu est complètement chargé !");
             }
         });
     }
