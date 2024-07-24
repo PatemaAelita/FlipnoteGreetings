@@ -8,7 +8,8 @@
 		"Patema"
 	],
 	"contact": {
-		"homepage": "https://github.com/PatemaAelita",
+		"homepage": "https://modrinth.com/mod/flipnotegreetings",
+		"issues": "https://github.com/PatemaAelita/FlipnoteGreetings/issues",
 		"sources": "https://github.com/PatemaAelita/FlipnoteGreetings"
 	},
 	"license": "CC BY-NC-SA 4.0",
@@ -21,11 +22,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

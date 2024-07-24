@@ -19,7 +19,7 @@ public class PlayerJoinSoundHandler {
             //Check if the client has properly loaded before playing the sound (including longer loading screen due to mods)
             if (!gameLoaded && client.world != null && client.player != null && client.currentScreen == null) {
                 gameLoaded = true;
-                client.player.playSound(ModSounds.STARTUP_SOUND, SoundCategory.PLAYERS, 1.0F, 1.0F);
+                client.player.playSound(ModSounds.STARTUP_SOUND, 1.0F, 1.0F);
                 client.player.sendMessage(Text.literal("The Flipnote frog greets you !!!"), false);
             }
         });

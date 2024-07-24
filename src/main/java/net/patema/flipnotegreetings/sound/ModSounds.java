@@ -10,7 +10,7 @@ public class ModSounds {
     public static final SoundEvent STARTUP_SOUND = registerSoundEvent("startup_sound");
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = new Identifier(FlipnoteGreetings.MOD_ID, name);
+        Identifier id = Identifier.of(FlipnoteGreetings.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
